@@ -1,3 +1,5 @@
+import myImage from "../assets/hero-image.png"
+
 function Home() {
   return (
     <>
@@ -7,6 +9,9 @@ function Home() {
         <p>and welcome to my portfolio</p>
       </div>
       <div>
+        <div>
+          <img src={myImage} alt="hero-image"/>
+        </div>
         <h1>About Me</h1>
         <p>
           I’m a junior developer, with experience in the frontend (hopefully full stack someday) and enjoy creating an enjoyable user experience. 
